@@ -4,7 +4,7 @@ Description: |
 
 Parameters:
   DomainName:
-    Description: DNS Name of existing Amazon Route 53 hosted zone ex. kittens.yunuskarsen.link
+    Description: DNS Name of existing Amazon Route 53 hosted zone ex. yunuskarsen.link
     Type: AWS::Route53::HostedZone::Id
   KittensDomainName:
     Description: Full domain name for the App. ex. kittens.yunuskarsen.link
